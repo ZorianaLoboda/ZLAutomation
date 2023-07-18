@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeTestSuite">
+  <test name="Test">
+    <parameter name="query" value="Машина" />
+    <parameter name="expectedText" value="Машина" />
+    <parameter name="elementXPath" value="//div/h1" />
+    <classes>
+      <class name="HomeWork9.Task5" />
+    </classes>
+  </test>
+  <test name="InputTest">
+    <parameter name="query" value="Input" />
+    <parameter name="expectedText" value="Input" />
+    <parameter name="elementXPath" value="//div/h1" />
+    <classes>
+      <class name="HomeWork9.Task5" />
+    </classes>
+  </test>
+  <test name="SmyslTest">
+    <parameter name="query" value="Смисл" />
+    <parameter name="expectedText" value="Смисл" />
+    <parameter name="elementXPath" value="//div[3]/div//div//div/div[1]/div[1]/label" />
+    <classes>
+      <class name="HomeWork9.Task5" />
+    </classes>
+  </test>
+</suite>
