@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ParallelHome Suite" parallel="classes">
+    <test name="ParallelHome Test">
+        <classes>
+            <class name="Parallelismus.ParallelClass1" />
+            <class name="Parallelismus.ParallelClass2" />
+        </classes>
+    </test>
+</suite>
